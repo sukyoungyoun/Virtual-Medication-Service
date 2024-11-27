@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 // const express = require('express');
 // const cors = require('cors');
 const app = express();
-const port = 5159;
+const port = process.env.PORT || 5159;
 
 // Directory organization
 const __filename = fileURLToPath(import.meta.url);
@@ -48,5 +48,5 @@ app.post('/medication', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running on port ${port}`);
 });
