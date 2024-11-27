@@ -1,0 +1,124 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #7F6952;
+}
+
+/* Body styling */
+body {
+    font-family: 'Source Serif Pro', serif;
+    color: #7F6952;
+    background-color: #FCF7E9; /* Soft beige background */
+    color: #333; /* Dark gray text for better readability */
+}
+
+/* Header styling */
+header {
+    background-color: black; /* Deep black background for sophistication */
+    color: white; /* White text for contrast */
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FCF7E9;
+}
+
+/* Navigation button styling */
+nav {
+    margin-top: 1.5rem;
+}
+
+nav button {
+    background-color: white; /* White background for buttons */
+    border: 1px solid black; /* Black border to match the header */
+    color: black; /* Black text */
+    padding: 0.75rem 2rem;
+    margin: 0.5rem;
+    border-radius: 8px; /* Slightly rounded corners for a soft touch */
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+nav button:hover {
+    background-color: black; /* Black background on hover */
+    color: white; /* White text on hover for contrast */
+}
+
+/* Main section styling */
+main {
+    padding: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Hidden class for elements that need to be hidden */
+.hidden {
+    display: none;
+}
+
+/* Subheading styling */
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black; /* Black for subheadings for consistency */
+}
+
+/* Styling for search results */
+#searchResults {
+    margin-top: 1.5rem;
+}
+
+/* Medication list styling */
+#medicationsList {
+    list-style: none;
+    padding-left: 0;
+}
+
+#medicationsList li {
+    background-color: white; /* White background for list items */
+    padding: 1.2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Softer shadow for a more sophisticated feel */
+}
+
+/* Form styling */
+#addForm input, #addForm button {
+    display: block;
+    margin: 0.75rem 0;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners for inputs */
+}
+
+#addForm button {
+    background-color: black; /* Black background for button */
+    color: white; /* White text */
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#addForm button:hover {
+    background-color: #333; /* Darker black shade on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: black; /* Ensuring the footer text is black for consistency */
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Medication Service</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Virtual Medication Service</h1>
+    <nav>
+      <button id="viewAllButton">View All Medications</button>
+      <button id="searchButton">Search Medications</button>
+      <button id="addButton">Add Medication</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Search Section -->
+    <section id="searchSection" class="hidden">
+      <h2>Search Medications</h2>
+      <input type="text" id="searchInput" placeholder="Enter medication name">
+      <button id="searchSubmit">Search</button>
+      <div id="searchResults"></div>
+    </section>
+
+    <!-- Add Medication Section -->
+    <section id="addSection" class="hidden">
+      <h2>Add New Medication</h2>
+      <form id="addForm">
+        <label for="name">Medication Name:</label>
+        <input type="text" id="name" required>
+        <label for="type">Medication Type:</label>
+        <input type="text" id="type" required>
+        <label for="strength">Strength:</label>
+        <input type="number" id="strength" required>
+        <button type="submit">Add Medication</button>
+      </form>
+    </section>
+
+    <!-- Medications List -->
+    <section id="medicationsSection" class="hidden">
+      <h2>All Medications</h2>
+      <ul id="medicationsList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Sukyoung Youn - 2024</p>
+  </footer>
+</body>
+</html>
