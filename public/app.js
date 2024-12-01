@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const addButton = document.getElementById('addButton');
     const viewAllButton = document.getElementById('viewAllButton');
   
-    const API_URL = 'http://localhost:5159';
-  
+    const API_URL = 'https://virtual-medication-service.onrender.com';
+    
     viewAllButton.addEventListener('click', async () => {
       searchSection.classList.add('hidden');
       addSection.classList.add('hidden');
